@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">Quiz</string>
+    <string name="Brown_bear">Q1a</string>
+    <string name="title_activity_music">MusicActivity</string>
+</resources>

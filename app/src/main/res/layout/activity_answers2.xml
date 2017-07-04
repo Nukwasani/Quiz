@@ -1,0 +1,173 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#007960">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" >
+
+            <TextView
+                android:id="@+id/textView25"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textAlignment="center"
+                android:text="ANSWERS"
+                android:textStyle="bold|italic"
+                android:textColor="#f44335"
+                android:layout_margin="30dp"/>
+
+            <TextView
+                android:id="@+id/textView26"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="20dp"
+                android:textStyle="bold|italic"
+                android:textAlignment="center"
+                android:text="Grand Central Terminal, Park Avenue, New York is the world's" />
+
+            <TextView
+                android:id="@+id/textView27"
+                android:layout_width="259dp"
+                android:layout_height="wrap_content"
+                android:textAlignment="center"
+                android:layout_margin="20dp"
+                android:textStyle="bold|italic"
+                android:textColor="#92c"
+                android:text="largest railway station" />
+
+            <TextView
+                android:id="@+id/textView29"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="20dp"
+                android:textStyle="bold|italic"
+                android:text="For which of the following disciplines is Nobel Prize awarded?" />
+
+            <TextView
+                android:id="@+id/textView30"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="20dp"
+                android:textStyle="bold|italic"
+                android:textAlignment="center"
+                android:textColor="#92c"
+                android:text="All of the above" />
+
+            <TextView
+                android:id="@+id/textView31"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="20dp"
+                android:textStyle="bold|italic"
+                android:text="Hitler party which came into power in 1933 is known as" />
+
+            <TextView
+                android:id="@+id/textView32"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textAlignment="center"
+                android:textColor="#92c"
+                android:layout_margin="20dp"
+                android:textStyle="bold|italic"
+                android:text="Ku-Klux-Klan" />
+
+            <TextView
+                android:id="@+id/textView33"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="20dp"
+                android:textStyle="bold|italic"
+                android:text="On which year was Nelson Mandela Released from prison?" />
+
+            <TextView
+                android:id="@+id/textView34"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="20dp"
+                android:textAlignment="center"
+                android:textStyle="bold|italic"
+                android:textColor="#92c"
+                android:text="1990" />
+
+            <TextView
+                android:id="@+id/textView35"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="20dp"
+                android:textStyle="bold|italic"
+
+                android:text="Which year did black SouthAfricans vote for the first time?" />
+
+            <TextView
+                android:id="@+id/textView36"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="20dp"
+                android:textAlignment="center"
+                android:textStyle="bold|italic"
+                android:textColor="#92c"
+                android:text="1994" />
+
+            <TextView
+                android:id="@+id/textView37"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="20dp"
+                android:textStyle="bold|italic"
+                android:text="Which country hosted the 2010 world cup?" />
+
+            <TextView
+                android:id="@+id/textView38"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="20dp"
+                android:textAlignment="center"
+                android:textColor="#92c"
+                android:textStyle="bold|italic"
+                android:text="South Africa" />
+
+            <TextView
+                android:id="@+id/textView39"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="20dp"
+                android:textStyle="bold|italic"
+                android:text="Entomology is the science that studies" />
+
+            <TextView
+                android:id="@+id/textView40"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="20dp"
+                android:textAlignment="center"
+                android:textColor="#92c"
+                android:textStyle="bold|italic"
+                android:text="Insects" />
+
+            <Button
+                android:id="@+id/btnExit2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:onClick="Exit"
+                android:text="Exit" />
+
+            <Button
+                android:id="@+id/btnBack"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:onClick="Back"
+                android:text="Back" />
+        </LinearLayout>
+    </ScrollView>
+</RelativeLayout>

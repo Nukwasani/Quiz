@@ -1,0 +1,229 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#E91">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" >
+
+            <TextView
+                android:id="@+id/tvHeader"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_margin="20dp"
+                android:text="About the animals"
+                android:textAlignment="center"
+                android:textAllCaps="true"
+                android:textSize="14sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/tvQ1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="20dp"
+                android:lineSpacingExtra="14sp"
+                android:text="What is the name of the big white bear?" />
+
+            <RadioGroup
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:id="@+id/myRb">
+
+                <RadioButton
+                    android:id="@+id/rbQ1a"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="Brown bear" />
+
+
+            <RadioButton
+                android:id="@+id/rbQ1b"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="The polar bear" />
+
+            <RadioButton
+                android:id="@+id/rbQ1c"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Giant panda Bear" />
+
+            <TextView
+                android:id="@+id/tvQ2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="20dp"
+                android:text="Where are grasshopper's ears located?" />
+
+            <RadioButton
+                android:id="@+id/rbQ2a"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="In its knees" />
+
+            <RadioButton
+                android:id="@+id/rbQ2b"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="At its back" />
+
+            <RadioButton
+                android:id="@+id/rbQ2c"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="on top of the head" />
+
+            <TextView
+                android:id="@+id/tvQ3"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="20dp"
+                android:text="What is a female swan called?" />
+
+            <RadioButton
+                android:id="@+id/rbQ3a"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="swanest" />
+
+            <RadioButton
+                android:id="@+id/rbQ3b"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Swam" />
+
+            <RadioButton
+                android:id="@+id/rbQ3c"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="A pen" />
+
+            <TextView
+                android:id="@+id/tvQ4"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="20dp"
+                android:text="There are two main types of elephants, do you know what they are called?" />
+
+            <RadioButton
+                android:id="@+id/rbQ4a"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="The brown and black elephants " />
+
+            <RadioButton
+                android:id="@+id/rbQ4b"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="The Asian elephant and the African elephant" />
+
+            <RadioButton
+                android:id="@+id/rbQ4c"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="The indian and eastAfrica elephant" />
+
+            <TextView
+                android:id="@+id/tvQ5"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="20dp"
+                android:text="What type of crocodile is the biggest in the world?" />
+
+            <RadioButton
+                android:id="@+id/rbQ5a"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="The saltwater crocodile" />
+
+            <RadioButton
+                android:id="@+id/rbQ5b"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Nile crocodile" />
+
+            <RadioButton
+                android:id="@+id/rbQ5c"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Indo-Pacific" />
+
+            <TextView
+                android:id="@+id/tyvQ6"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="20dp"
+                android:text="What is a sow?" />
+
+            <RadioButton
+                android:id="@+id/rbQ6a"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Dog" />
+
+            <RadioButton
+                android:id="@+id/rbQ6b"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Monkey" />
+
+            <RadioButton
+                android:id="@+id/rbQ6c"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="A pig" />
+
+            </RadioGroup>
+
+            <TextView
+                android:id="@+id/tvResults"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="" />
+
+            <Button
+                android:id="@+id/btnScore"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:visibility="invisible"
+                android:onClick="Results"
+                android:text="Results" />
+
+            <Button
+                android:id="@+id/btnAnswer"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:onClick="Answers"
+                android:text="CorrectAnswers"
+                android:visibility="invisible"/>
+
+            <TextView
+                android:id="@+id/textView11"
+                android:layout_width="match_parent"
+                android:textColor="#ff4433"
+                android:layout_height="wrap_content"
+                android:text="CLICK THE PICTURE" />
+
+            <ImageView
+                android:id="@+id/imageView2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:onClick="Picture"
+                app:srcCompat="@mipmap/question_mark" />
+        </LinearLayout>
+    </ScrollView>
+</RelativeLayout>
